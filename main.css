@@ -1,0 +1,97 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    gap: 3px;
+
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 100px 70px 2fr 100px;
+}
+
+.container>div{
+    background-color: lightgray;
+}
+
+.centre>div{
+    background-color: gray;
+}
+
+.small_box1{
+    border: 3px solid black;
+    height: 30px;
+    width: 130px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.small_box2{
+    border: 3px solid black;
+    height: 30px;
+    width: 130px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20px;
+    padding-left: 10px;
+}
+
+.box1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box2{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.box3{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.box5{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.box7{
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.centre{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.box4{
+    height: 100%;
+}
+
+.box6{
+    height: 70px;
+}
