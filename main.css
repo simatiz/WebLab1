@@ -11,8 +11,8 @@ body{
     gap: 3px;
 
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 100px 70px 2fr 100px;
+    grid-template-columns: auto auto 350px;
+    grid-template-rows: auto 70px auto auto;
 }
 
 .hero-name{
@@ -134,7 +134,6 @@ li a:hover{
 
     background-color: lightgray;
     font-size: 18px;
-    overflow: auto;
 }
 
 .box3{
