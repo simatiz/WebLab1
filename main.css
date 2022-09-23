@@ -134,6 +134,7 @@ li a:hover{
 
     background-color: lightgray;
     font-size: 18px;
+    overflow: auto;
 }
 
 .box3{
